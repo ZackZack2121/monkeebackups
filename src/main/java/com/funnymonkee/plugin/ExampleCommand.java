@@ -10,12 +10,12 @@ import javax.annotation.Nonnull;
 /**
  * This is an example command that will simply print the name of the plugin in chat when used.
  */
-public class Monkeebackups extends CommandBase {
+public class ExampleCommand extends CommandBase {
 
     private final String pluginName;
     private final String pluginVersion;
 
-    public Monkeebackups(String pluginName, String pluginVersion) {
+    public ExampleCommand(String pluginName, String pluginVersion) {
         super("test", "Prints a test message from the " + pluginName + " plugin.");
         this.setPermissionGroup(GameMode.Adventure); // Allows the command to be used by anyone, not just OP
         this.pluginName = pluginName;
