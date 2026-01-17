@@ -1,14 +1,15 @@
 {
-    "Group": "Example",
-    "Name": "ExamplePlugin",
-    "Version": "0.0.2",
-    "Description": "An example plugin for HyTale!",
+    "Group": "com.funnymonkee",
+    "Name": "MonkeeBackups",
+    "Version": "1.0.0",
+    "Description": "A simple (for now FTP) backup uploader!",
     "Authors": [
         {
-            "Name": "It's you!"
+            "Name": "Funnymonkee",
+            "Url": "https://funnymonkee.com"
         }
     ],
-    "Website": "example.org",
+    "Website": "funnymonkee.com",
     "ServerVersion": "*",
     "Dependencies": {
         
@@ -17,6 +18,6 @@
         
     },
     "DisabledByDefault": false,
-    "Main": "org.example.plugin.ExamplePlugin",
+    "Main": "com.funnymonkee.plugin.Monkeebackups",
     "IncludesAssetPack": true
 }
